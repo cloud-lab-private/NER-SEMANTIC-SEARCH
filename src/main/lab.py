@@ -101,7 +101,7 @@ ner_pipeline = pipeline("ner", model=ner_model, tokenizer=tokenizer)
 
 entities = ner_pipeline(query)
 
-print(entities)
+#print(entities)
 
 """
     In this case, one entity was detected in the query and its data saved to a dictionary. We now have all the
